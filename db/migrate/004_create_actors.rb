@@ -8,8 +8,6 @@ class CreateActors  < ActiveRecord::Migration
   def change
     create_table :actors do |t| #we get a block variable here for the table
       t.string :first_name
-      # the above breaks down to
-      # "create a column called :call_letters on table t with type string
       t.string :last_name
     end
   end
