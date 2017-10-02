@@ -1,8 +1,6 @@
-class AddShowsToNetwork < ActiveRecord::Migration
-  #to make an additive change to a schema we create
-  #a new migration, and then in the change method,
-  #we make the change.
+class AddCatchphraseToCharacter < ActiveRecord::Migration
+
   def change
-    add_column :shows, :network_id, :integer
+    add_column :characters, :catchphrase, :string
   end
 end
