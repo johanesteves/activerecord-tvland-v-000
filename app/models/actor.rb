@@ -11,5 +11,5 @@ class Actor < ActiveRecord::Base
     self.characters
   end
 
-  
+
 end
